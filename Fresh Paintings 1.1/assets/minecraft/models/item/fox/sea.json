@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.6",
+	"credit": "cyberia was here",
+	"parent": "minecraft:item/fox/courbet",
+	"textures": {
+		"1": "item/painting_back",
+		"particle": "item/sea_painting",
+		"layer0": "item/sea_painting"
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [5, 18, 7],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

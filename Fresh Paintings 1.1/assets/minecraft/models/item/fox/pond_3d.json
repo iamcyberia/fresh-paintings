@@ -1,0 +1,88 @@
+{
+	"format_version": "1.21.6",
+	"credit": "cyberia was here",
+	"parent": "minecraft:item/backyard_3d",
+	"textures": {
+		"1": "item/painting_back",
+		"3": "item/pond_painting",
+		"particle": "item/painting_back"
+	},
+	"elements": [
+		{
+			"name": "painting",
+			"from": [4, 1, 7.5],
+			"to": [12, 11, 7.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 6, 7.8125]},
+			"faces": {
+				"north": {"uv": [4, 3, 12, 13], "texture": "#1"},
+				"south": {"uv": [4, 4, 12, 14], "texture": "#3"}
+			}
+		},
+		{
+			"name": "case_top",
+			"from": [4, 11, 7.5],
+			"to": [12, 12, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 6, 7.8125]},
+			"faces": {
+				"north": {"uv": [4, 2, 12, 3], "texture": "#1"},
+				"south": {"uv": [4, 3, 12, 4], "texture": "#3"},
+				"up": {"uv": [12, 4, 4, 3], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [4, 3, 12, 4], "texture": "#3"}
+			}
+		},
+		{
+			"name": "case_right",
+			"from": [12, 0, 7.5],
+			"to": [13, 12, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 6, 7.8125]},
+			"faces": {
+				"north": {"uv": [3, 2, 4, 14], "texture": "#1"},
+				"east": {"uv": [12, 3, 13, 15], "texture": "#3"},
+				"south": {"uv": [12, 3, 13, 15], "texture": "#3"},
+				"west": {"uv": [12, 3, 13, 15], "texture": "#3"},
+				"up": {"uv": [13, 4, 12, 3], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [13, 15, 12, 16], "rotation": 270, "texture": "#3"}
+			}
+		},
+		{
+			"name": "case_bottom",
+			"from": [4, 0, 7.5],
+			"to": [12, 1, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 6, 7.8125]},
+			"faces": {
+				"north": {"uv": [4, 13, 12, 14], "texture": "#1"},
+				"south": {"uv": [4, 14, 12, 15], "texture": "#3"},
+				"up": {"uv": [12, 15, 4, 14], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [4, 15, 12, 16], "texture": "#3"}
+			}
+		},
+		{
+			"name": "case_left",
+			"from": [3, 0, 7.5],
+			"to": [4, 12, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 6, 7.8125]},
+			"faces": {
+				"north": {"uv": [12, 2, 13, 14], "texture": "#1"},
+				"east": {"uv": [3, 3, 4, 15], "texture": "#3"},
+				"south": {"uv": [3, 3, 4, 15], "texture": "#3"},
+				"west": {"uv": [3, 3, 4, 15], "texture": "#3"},
+				"up": {"uv": [4, 4, 3, 3], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [4, 15, 3, 16], "rotation": 270, "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"translation": [0, 0.5, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "painting",
+			"origin": [16.5625, 9, 20],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

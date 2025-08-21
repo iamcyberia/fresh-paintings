@@ -1,0 +1,87 @@
+{
+	"format_version": "1.21.6",
+	"credit": "cyberia was here",
+	"parent": "minecraft:item/changing_3d",
+	"textures": {
+		"1": "item/painting_back",
+		"particle": "item/finding_painting"
+	},
+	"elements": [
+		{
+			"name": "painting",
+			"from": [2, 1, 7.6875],
+			"to": [14, 8, 7.9375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 1, 7.6875]},
+			"faces": {
+				"north": {"uv": [2, 3, 14, 10], "texture": "#1"},
+				"south": {"uv": [2, 5, 14, 12], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "case_top",
+			"from": [2, 8, 7.6875],
+			"to": [14, 9, 8.6875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 8, 7.6875]},
+			"faces": {
+				"north": {"uv": [2, 2, 14, 3], "texture": "#1"},
+				"south": {"uv": [2, 4, 14, 5], "texture": "#particle"},
+				"up": {"uv": [14, 5, 2, 4], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [14, 4, 2, 5], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "case_right",
+			"from": [14, 0, 7.6875],
+			"to": [15, 9, 8.6875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 9, 7.6875]},
+			"faces": {
+				"north": {"uv": [1, 2, 2, 11], "texture": "#1"},
+				"east": {"uv": [14, 4, 15, 13], "texture": "#particle"},
+				"south": {"uv": [14, 4, 15, 13], "texture": "#particle"},
+				"west": {"uv": [14, 4, 15, 13], "texture": "#particle"},
+				"up": {"uv": [14, 5, 15, 4], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [15, 13, 14, 14], "rotation": 270, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "case_bottom",
+			"from": [2, 0, 7.6875],
+			"to": [14, 1, 8.6875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 7.6875]},
+			"faces": {
+				"north": {"uv": [2, 10, 14, 11], "texture": "#1"},
+				"south": {"uv": [2, 12, 14, 13], "texture": "#particle"},
+				"up": {"uv": [14, 13, 2, 12], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [15, 13, 1, 14], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "case_left",
+			"from": [1, 0, 7.6875],
+			"to": [2, 9, 8.6875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-6, 9, 7.6875]},
+			"faces": {
+				"north": {"uv": [14, 2, 15, 11], "texture": "#1"},
+				"east": {"uv": [1, 4, 2, 13], "texture": "#particle"},
+				"south": {"uv": [1, 4, 2, 13], "texture": "#particle"},
+				"west": {"uv": [1, 4, 2, 13], "texture": "#particle"},
+				"up": {"uv": [2, 5, 1, 4], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [2, 13, 1, 14], "rotation": 270, "texture": "#particle"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"translation": [0, 2, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "painting",
+			"origin": [15, 9, 15.6875],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

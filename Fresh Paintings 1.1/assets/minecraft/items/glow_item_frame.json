@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/glow_item_frame"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:context_entity_type",
+      "cases": [
+        {
+          "when": "minecraft:fox",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/fox/glow_item_frame_3d"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "item/glow_item_frame_3d"
+      }
+    }
+  }
+}

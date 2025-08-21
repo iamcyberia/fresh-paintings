@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.6",
+	"credit": "cyberia was here",
+	"parent": "minecraft:item/backyard_3d",
+	"textures": {
+		"1": "item/painting_back",
+		"3": "item/pond_painting",
+		"particle": "item/painting_back"
+	},
+	"groups": [
+		{
+			"name": "painting",
+			"origin": [16.5625, 9, 20],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

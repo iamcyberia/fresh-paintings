@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.6",
+	"credit": "cyberia was here",
+	"parent": "minecraft:item/fox/alban",
+	"textures": {
+		"1": "item/painting_back",
+		"particle": "item/aztec_painting",
+		"layer0": "item/aztec_painting"
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [5, 18, 7],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

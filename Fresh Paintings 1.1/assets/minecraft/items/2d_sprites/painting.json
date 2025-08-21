@@ -1,0 +1,1879 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:painting/variant",
+    "cases": [
+      {
+        "when": "minecraft:kebab",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/kebab"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/kebab"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/kebab_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:alban",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/alban"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/alban"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/alban_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:aztec",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/aztec"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/aztec"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/aztec_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:aztec2",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/aztec2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/aztec2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/aztec2_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:bomb",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/bomb"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/bomb"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/bomb_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:plant",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/plant"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/plant"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/plant_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:wasteland",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/wasteland"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/wasteland"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/wasteland_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:meditative",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/meditative"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/meditative"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/meditative_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:wanderer",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/wanderer"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/wanderer"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/wanderer_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:graham",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/graham"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/graham"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/graham_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:prairie_ride",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/prairie_ride"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/prairie_ride"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/prairie_ride_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:pool",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/pool"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/pool"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/pool_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:courbet",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/courbet"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/courbet"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/courbet_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:sunset",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/sunset"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/sunset"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/sunset_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:sea",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/sea"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/sea"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/sea_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:creebet",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/creebet"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/creebet"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/creebet_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:match",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/match"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/match"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/match_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:bust",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/bust"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/bust"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/bust_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:stage",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/stage"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/stage"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/stage_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:void",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/void"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/void"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/void_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:skull_and_roses",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/skull_and_roses"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/skull_and_roses"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/skull_and_roses_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:wither",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/wither"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/wither"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/wither_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:baroque",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/baroque"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/baroque"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/baroque_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:humble",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/humble"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/humble"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/humble_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:bouquet",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/bouquet"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/bouquet"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/bouquet_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:cavebird",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/cavebird"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/cavebird"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/cavebird_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:cotan",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/cotan"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/cotan"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/cotan_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:endboss",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/endboss"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/endboss"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/endboss_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:fern",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/fern_painting"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/fern_painting"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/fern_painting_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:owlemons",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/owlemons"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/owlemons"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/owlemons_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:sunflowers",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/sunflowers"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/sunflowers"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/sunflowers_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:tides",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/tides"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/tides"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/tides_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:dennis",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/dennis"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/dennis"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/dennis_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:backyard",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/backyard"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/backyard"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/backyard_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:pond",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/pond"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/pond"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/pond_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:fighters",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/fighters"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/fighters"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/fighters_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:changing",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/changing"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/changing"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/changing_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:finding",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/finding"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/finding"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/finding_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:lowmist",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/lowmist"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/lowmist"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/lowmist_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:passage",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/passage"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/passage"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/passage_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:skeleton",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/skeleton"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/skeleton"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/skeleton_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:donkey_kong",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/donkey_kong"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/donkey_kong"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/donkey_kong_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:pointer",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/pointer"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/pointer"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/pointer_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:pigscene",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/pigscene"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/pigscene"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/pigscene_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:burning_skull",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/burning_skull"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/burning_skull"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/burning_skull_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:orb",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/orb"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/orb"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/orb_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:unpacked",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/unpacked"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/unpacked"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/unpacked_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:earth",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/earth"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/earth"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/earth_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:wind",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/wind"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/wind"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/wind_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:fire",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/fire"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/fire"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/fire_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": "minecraft:water",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "gui",
+                "ground"              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/water"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_entity_type",
+            "cases": [
+              {
+                "when": "minecraft:fox",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/fox/water"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/water"
+            }
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "fixed",
+            "gui",
+                "ground"          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/painting"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "property": "minecraft:context_entity_type",
+        "cases": [
+          {
+            "when": "minecraft:fox",
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/fox/painting"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "item/painting_3d"
+        }
+      }
+    }
+  }
+}

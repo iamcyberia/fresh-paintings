@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.6",
+	"credit": "cyberia was here",
+	"parent": "minecraft:item/fox/baroque",
+	"textures": {
+		"1": "item/painting_back",
+		"2": "item/bouquet_painting",
+		"particle": "item/painting_back"
+	},
+	"groups": [
+		{
+			"name": "painting",
+			"origin": [4.5, 18, 7],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

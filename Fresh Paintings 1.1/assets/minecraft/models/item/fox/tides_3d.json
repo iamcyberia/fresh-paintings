@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.6",
+	"credit": "cyberia was here",
+	"parent": "minecraft:item/baroque_3d",
+	"textures": {
+		"1": "item/painting_back",
+		"2": "item/tides_painting",
+		"particle": "item/tides_painting"
+	},
+	"groups": [
+		{
+			"name": "painting",
+			"origin": [14.5, 9, 20.6875],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}
