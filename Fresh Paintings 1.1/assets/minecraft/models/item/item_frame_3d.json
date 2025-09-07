@@ -10,7 +10,6 @@
 			"name": "painting",
 			"from": [3, 1, 7.6875],
 			"to": [13, 9, 7.9375],
-			"light_emission": 10,
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 1, 7.6875]},
 			"faces": {
 				"north": {"uv": [0, 0, 5, 4], "texture": "#1"},
@@ -21,7 +20,6 @@
 			"name": "case_top",
 			"from": [3, 9, 7.6875],
 			"to": [13, 10, 8.6875],
-			"light_emission": 10,
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 9, 7.6875]},
 			"faces": {
 				"north": {"uv": [0, 4.5, 5, 5], "texture": "#1"},
@@ -34,7 +32,6 @@
 			"name": "case_right",
 			"from": [13, 0, 7.6875],
 			"to": [14, 10, 8.6875],
-			"light_emission": 10,
 			"rotation": {"angle": 0, "axis": "y", "origin": [6, 9, 7.6875]},
 			"faces": {
 				"north": {"uv": [2, 5, 2.5, 10], "texture": "#1"},
@@ -49,7 +46,6 @@
 			"name": "case_bottom",
 			"from": [3, 0, 7.6875],
 			"to": [13, 1, 8.6875],
-			"light_emission": 10,
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 7.6875]},
 			"faces": {
 				"north": {"uv": [5.5, 0, 10.5, 0.5], "texture": "#1"},
@@ -62,7 +58,6 @@
 			"name": "case_left",
 			"from": [2, 0, 7.6875],
 			"to": [3, 10, 8.6875],
-			"light_emission": 10,
 			"rotation": {"angle": 0, "axis": "y", "origin": [-5, 9, 7.6875]},
 			"faces": {
 				"north": {"uv": [5, 5.5, 5.5, 10.5], "texture": "#1"},

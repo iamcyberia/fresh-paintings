@@ -1,6 +1,6 @@
 {
     id: "Painting",
-    version: 13,
+    version: 12,
     capabilities: ["FileFilter", "DirFilter"],
     conf: {
         UseModelsWhenDropped: true
