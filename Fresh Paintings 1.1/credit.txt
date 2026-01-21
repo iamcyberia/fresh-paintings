@@ -1,5 +1,0 @@
-Pato for porting it to older versions
-https://modrinth.com/user/patovskiz
-
-Dani for helping me make the .json
-https://modrinth.com/user/tixork
