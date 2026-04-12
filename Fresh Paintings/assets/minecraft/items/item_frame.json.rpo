@@ -1,0 +1,12 @@
+{
+    condition: "!freshPaintings.useModelsWhen.ground & !freshPaintings.useModelsWhen.itemFrames & !freshPaintings.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/item_frame/item_frame1.json",
+        "assets/minecraft/items/alt/item_frame/item_frame2.json",
+        "assets/minecraft/items/alt/item_frame/item_frame3.json",
+        "assets/minecraft/items/alt/item_frame/item_frame4.json",
+        "assets/minecraft/items/alt/item_frame/item_frame5.json",
+        "assets/minecraft/items/alt/item_frame/item_frame6.json",
+        "assets/minecraft/items/alt/item_frame/item_frame7.json"
+    ]
+}

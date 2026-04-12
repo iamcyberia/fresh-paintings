@@ -1,0 +1,1410 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:painting/variant",
+    "cases": [
+      {
+        "when": "minecraft:kebab",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/kebab_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/kebab"
+          }
+        }
+      },
+      {
+        "when": "minecraft:alban",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/alban_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/alban"
+          }
+        }
+      },
+      {
+        "when": "minecraft:aztec",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/aztec_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/aztec"
+          }
+        }
+      },
+      {
+        "when": "minecraft:aztec2",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/aztec2_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/aztec2"
+          }
+        }
+      },
+      {
+        "when": "minecraft:bomb",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/bomb_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/bomb"
+          }
+        }
+      },
+      {
+        "when": "minecraft:plant",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/plant_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/plant"
+          }
+        }
+      },
+      {
+        "when": "minecraft:wasteland",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/wasteland_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/wasteland"
+          }
+        }
+      },
+      {
+        "when": "minecraft:meditative",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/meditative_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/meditative"
+          }
+        }
+      },
+      {
+        "when": "minecraft:wanderer",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/wanderer_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/wanderer"
+          }
+        }
+      },
+      {
+        "when": "minecraft:graham",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/graham_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/graham"
+          }
+        }
+      },
+      {
+        "when": "minecraft:prairie_ride",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/prairie_ride_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/prairie_ride"
+          }
+        }
+      },
+      {
+        "when": "minecraft:pool",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/pool_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/pool"
+          }
+        }
+      },
+      {
+        "when": "minecraft:courbet",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/courbet_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/courbet"
+          }
+        }
+      },
+      {
+        "when": "minecraft:sunset",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/sunset_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/sunset"
+          }
+        }
+      },
+      {
+        "when": "minecraft:sea",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/sea_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/sea"
+          }
+        }
+      },
+      {
+        "when": "minecraft:creebet",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/creebet_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/creebet"
+          }
+        }
+      },
+      {
+        "when": "minecraft:match",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/match_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/match"
+          }
+        }
+      },
+      {
+        "when": "minecraft:bust",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/bust_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/bust"
+          }
+        }
+      },
+      {
+        "when": "minecraft:stage",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/stage_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/stage"
+          }
+        }
+      },
+      {
+        "when": "minecraft:void",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/void_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/void"
+          }
+        }
+      },
+      {
+        "when": "minecraft:skull_and_roses",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/skull_and_roses_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/skull_and_roses"
+          }
+        }
+      },
+      {
+        "when": "minecraft:wither",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/wither_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/wither"
+          }
+        }
+      },
+      {
+        "when": "minecraft:baroque",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/baroque_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/baroque"
+          }
+        }
+      },
+      {
+        "when": "minecraft:humble",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/humble_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/humble"
+          }
+        }
+      },
+      {
+        "when": "minecraft:bouquet",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/bouquet_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/bouquet"
+          }
+        }
+      },
+      {
+        "when": "minecraft:cavebird",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/cavebird_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/cavebird"
+          }
+        }
+      },
+      {
+        "when": "minecraft:cotan",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/cotan_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/cotan"
+          }
+        }
+      },
+      {
+        "when": "minecraft:endboss",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/endboss_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/endboss"
+          }
+        }
+      },
+      {
+        "when": "minecraft:fern",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/fern_painting_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/fern_painting"
+          }
+        }
+      },
+      {
+        "when": "minecraft:owlemons",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/owlemons_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/owlemons"
+          }
+        }
+      },
+      {
+        "when": "minecraft:sunflowers",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/sunflowers_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/sunflowers"
+          }
+        }
+      },
+      {
+        "when": "minecraft:tides",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/tides_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/tides"
+          }
+        }
+      },
+      {
+        "when": "minecraft:dennis",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/dennis_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/dennis"
+          }
+        }
+      },
+      {
+        "when": "minecraft:backyard",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/backyard_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/backyard"
+          }
+        }
+      },
+      {
+        "when": "minecraft:pond",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/pond_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/pond"
+          }
+        }
+      },
+      {
+        "when": "minecraft:fighters",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/fighters_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/fighters"
+          }
+        }
+      },
+      {
+        "when": "minecraft:changing",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/changing_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/changing"
+          }
+        }
+      },
+      {
+        "when": "minecraft:finding",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/finding_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/finding"
+          }
+        }
+      },
+      {
+        "when": "minecraft:lowmist",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/lowmist_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/lowmist"
+          }
+        }
+      },
+      {
+        "when": "minecraft:passage",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/passage_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/passage"
+          }
+        }
+      },
+      {
+        "when": "minecraft:skeleton",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/skeleton_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/skeleton"
+          }
+        }
+      },
+      {
+        "when": "minecraft:donkey_kong",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/donkey_kong_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/donkey_kong"
+          }
+        }
+      },
+      {
+        "when": "minecraft:pointer",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/pointer_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/pointer"
+          }
+        }
+      },
+      {
+        "when": "minecraft:pigscene",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/pigscene_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/pigscene"
+          }
+        }
+      },
+      {
+        "when": "minecraft:burning_skull",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/burning_skull_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/burning_skull"
+          }
+        }
+      },
+      {
+        "when": "minecraft:orb",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/orb_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/orb"
+          }
+        }
+      },
+      {
+        "when": "minecraft:unpacked",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/unpacked_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/unpacked"
+          }
+        }
+      },
+      {
+        "when": "minecraft:earth",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/earth_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/earth"
+          }
+        }
+      },
+      {
+        "when": "minecraft:wind",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/wind_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/wind"
+          }
+        }
+      },
+      {
+        "when": "minecraft:fire",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/fire_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/fire"
+          }
+        }
+      },
+      {
+        "when": "minecraft:water",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "firstperson_righthand",
+                "thirdperson_lefthand",
+                "thirdperson_righthand",
+                "head",
+                "ground"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/water_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "item/water"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "firstperson_lefthand",
+            "firstperson_righthand",
+            "thirdperson_lefthand",
+            "thirdperson_righthand",
+            "head",
+            "ground"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/painting_3d"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "item/painting"
+      }
+    }
+  }
+}

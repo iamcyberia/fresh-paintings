@@ -1,8 +1,0 @@
-{
-    id: "Painting",
-    version: 12,
-    capabilities: ["FileFilter", "DirFilter"],
-    conf: {
-        UseModelsWhenDropped: true
-    }
-}

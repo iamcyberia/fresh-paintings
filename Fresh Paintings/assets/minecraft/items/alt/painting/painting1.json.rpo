@@ -1,0 +1,3 @@
+{
+    condition: "freshPaintings.useModelsWhen.ground & !freshPaintings.useModelsWhen.itemFrames & !freshPaintings.useModelsWhen.gui"
+}
